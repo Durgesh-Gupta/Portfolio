@@ -1,31 +1,45 @@
-import { 
-  FaReact, 
-  FaNodeJs, 
+import {
+  FaReact,
+  FaNodeJs,
   FaAws,
   FaDocker,
-  FaGitAlt
-} from 'react-icons/fa';
-import { 
-  SiMongodb, 
-  SiExpress, 
+  FaGitAlt,
+} from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress,
   SiTypescript,
   SiJavascript,
   SiRedux,
   SiTailwindcss,
-  SiFirebase
-} from 'react-icons/si';
+  SiFirebase,
+  SiSocketdotio,
+  SiNextdotjs,
+  SiNestjs,
+  SiPostgresql,
+  SiGraphql,
+  SiMui,
+} from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
 
 export const skills = [
-  { name: 'React', icon: FaReact, color: '#61DAFB' },
-  { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-  { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
-  { name: 'Express', icon: SiExpress, color: '#000000' },
-  { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
-  { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
-  { name: 'Redux', icon: SiRedux, color: '#764ABC' },
-  { name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
-  { name: 'Git', icon: FaGitAlt, color: '#F05032' },
-  { name: 'Docker', icon: FaDocker, color: '#2496ED' },
-  { name: 'AWS', icon: FaAws, color: '#FF9900' },
-  { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' }
+  { name: "React", icon: FaReact, color: "#61DAFB" },
+  { name: "React Native", icon: TbBrandReactNative, color: "#61DAFB" },
+  { name: "Next.js", icon: SiNextdotjs, color: "#000000" },
+  { name: "Node.js", icon: FaNodeJs, color: "#339933" },
+  { name: "Nest.js", icon: SiNestjs, color: "#E0234E" },
+  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+  { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
+  { name: "Express", icon: SiExpress, color: "#000000" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
+  { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
+  { name: "Redux", icon: SiRedux, color: "#764ABC" },
+  { name: "Socket.io", icon: SiSocketdotio, color: "#010101" },
+  { name: "GraphQL", icon: SiGraphql, color: "#E10098" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+  { name: "Material-UI", icon: SiMui, color: "#007FFF" },
+  { name: "Git", icon: FaGitAlt, color: "#F05032" },
+  { name: "Docker", icon: FaDocker, color: "#2496ED" },
+  { name: "AWS", icon: FaAws, color: "#FF9900" },
+  { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
 ];
